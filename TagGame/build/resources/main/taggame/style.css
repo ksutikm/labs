@@ -9,7 +9,7 @@
 
 .button:focused
 {
-    -fx-border-color: red;
+    -fx-border-color: white;
     -fx-border-width: 5;
     -fx-border-style: solid;
 }
@@ -18,5 +18,31 @@
     -fx-background-color: #D8BFD8;
 }
 
+#continueButton {
+    -fx-font-size: 12pt;
+    -fx-text-fill: #271132;
+    -fx-background-color: #D8BFD8;
+}
 
+#continueButton:focused {
+    -fx-border-color: #271132;
+        -fx-border-width: 2;
+        -fx-border-style: solid;
+}
 
+#startButton {
+    -fx-font-size: 12pt;
+    -fx-text-fill: #271132;
+    -fx-background-color: #D8BFD8;
+}
+
+#startButton:focused {
+    -fx-border-color: #271132;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+}
+
+#menu {
+    -fx-font-size: 16pt;
+    -fx-text-fill: #271132;
+}
