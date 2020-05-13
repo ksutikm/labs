@@ -1,7 +1,5 @@
 package taggame;
 
-import java.awt.*;
-import java.util.ArrayList;
 
 public class GamePlay {
 
@@ -13,8 +11,8 @@ public class GamePlay {
 
     public int[] shuffleList() {
 
-//        createGame();
-        createPlayingField();
+        createGame();
+//        createPlayingField();
         return intsField;
     }
 

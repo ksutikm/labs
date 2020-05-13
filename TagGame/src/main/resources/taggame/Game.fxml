@@ -27,8 +27,11 @@
 
         <VBox alignment="CENTER"  id="vBoxMenu"    prefWidth="200" spacing="15">
             <Text fx:id="menu" text="Menushka" />
-            <Button fx:id="continueButton" alignment="CENTER" text="Продолжить" />
-            <Button fx:id="startButton" alignment="CENTER" text="Начать новую игру" />
+            <Button fx:id="continueButton" onAction="#continueButtonAction" alignment="CENTER" text="Продолжить" />
+            <Button fx:id="startButton" onAction="#startButtonAction" alignment="CENTER" text="Начать новую игру" />
+            <Text fx:id="winer" text="Вы выиграли!" />
+            <Text fx:id="countText" text="Количество перемещений: " />
+            <Text fx:id="countNumber" />
         </VBox>
 
         <VBox fx:id="vBox" alignment="CENTER" prefHeight="430" prefWidth="430" spacing="10">

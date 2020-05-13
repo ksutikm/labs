@@ -1,8 +1,5 @@
 package taggame;
 
-import java.awt.*;
-import java.util.ArrayList;
-
 public class ButtonsList {
     private int[] buttonsList;
 

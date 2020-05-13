@@ -26,8 +26,8 @@
 
 #continueButton:focused {
     -fx-border-color: #271132;
-        -fx-border-width: 2;
-        -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
 }
 
 #startButton {
@@ -45,4 +45,16 @@
 #menu {
     -fx-font-size: 16pt;
     -fx-text-fill: #271132;
+}
+
+#winer {
+    -fx-font-size: 14pt;
+}
+
+#countText {
+    -fx-font-size: 14pt;
+}
+
+#countNumber {
+    -fx-font-size: 14pt;
 }
