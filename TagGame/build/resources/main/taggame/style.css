@@ -1,0 +1,22 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 20pt;
+    -fx-background-color: #271132;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+.button:focused
+{
+    -fx-border-color: red;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+}
+
+#vBox {
+    -fx-background-color: #D8BFD8;
+}
+
+
+

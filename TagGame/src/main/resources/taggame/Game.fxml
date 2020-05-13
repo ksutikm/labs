@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.text.Text?>
+
+<?import java.net.URL?>
+
+<HBox id="hBox" spacing="100"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="taggame.GameController">
+
+    <padding>
+    <Insets bottom="25" left="25" right="25" top="25" />
+    </padding>
+
+    <children>
+
+        <VBox alignment="CENTER"  id="vBoxMenu"    prefWidth="200" spacing="15">
+            <Text text="Menushka" />
+            <ToggleButton alignment="CENTER" text="Продолжить" />
+            <ToggleButton alignment="CENTER" text="Начать новую игру" />
+        </VBox>
+
+        <VBox fx:id="vBox" alignment="CENTER" prefHeight="430" prefWidth="430" spacing="10">
+
+            <children>
+
+                <HBox   alignment="CENTER"    id="hBox1" spacing="10">
+                    <children>
+                        <Button fx:id="btn1" onKeyPressed="#btn1Key" onMouseClicked="#btn1Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn2" onKeyPressed="#btn2Key" onMouseClicked="#btn2Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn3" onKeyPressed="#btn3Key" onMouseClicked="#btn3Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn4" onKeyPressed="#btn4Key" onMouseClicked="#btn4Action" prefHeight="90" prefWidth="90"/>
+                    </children>
+                </HBox>
+
+                <HBox    alignment="CENTER"   id="hBox2" spacing="10">
+                    <children>
+                        <Button fx:id="btn5" onKeyPressed="#btn5Key" onMouseClicked="#btn5Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn6" onKeyPressed="#btn6Key" onMouseClicked="#btn6Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn7" onKeyPressed="#btn7Key" onMouseClicked="#btn7Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn8" onKeyPressed="#btn8Key" onMouseClicked="#btn8Action" prefHeight="90" prefWidth="90"/>
+                    </children>
+                </HBox>
+
+                <HBox    alignment="CENTER"   id="hBox3" spacing="10">
+                    <children>
+                        <Button fx:id="btn9" onKeyPressed="#btn9Key" onMouseClicked="#btn9Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn10" onKeyPressed="#btn10Key" onMouseClicked="#btn10Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn11" onKeyPressed="#btn11Key" onMouseClicked="#btn11Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn12" onKeyPressed="#btn12Key" onMouseClicked="#btn12Action" prefHeight="90" prefWidth="90"/>
+                    </children>
+                </HBox>
+
+                <HBox    alignment="CENTER"   id="hBox4" spacing="10">
+                    <children>
+                        <Button fx:id="btn13" onKeyPressed="#btn13Key" onMouseClicked="#btn13Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn14" onKeyPressed="#btn14Key" onMouseClicked="#btn14Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn15" onKeyPressed="#btn15Key" onMouseClicked="#btn15Action" prefHeight="90" prefWidth="90"/>
+                        <Button fx:id="btn16" onKeyPressed="#btn16Key" onMouseClicked="#btn16Action" prefHeight="90" prefWidth="90"/>
+                    </children>
+
+                </HBox>
+
+            </children>
+
+        </VBox>
+
+    </children>
+
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+</HBox>
